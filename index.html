@@ -1,14 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./Aset/icon-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
     <title>Portofolio | DaffaSWijayanto</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <!-- navbar start -->
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color:#f5d2a7">
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top" style="background-color:#979797">
     <div class="container">
       <a class="navbar-brand fw-bold" href="#">
         <img src="./Aset/icon-removebg-preview.png" style="width:38px ;" alt="icon">
@@ -42,9 +44,14 @@
 <body id="home">
 <!-- jumbotron start -->
 <section class="jumbotron text-center">
-  <img src="/Aset/avatar.jfif" alt="DaffaSWijayanto" class="rounded-circle img-thumbnail">
+  <div class="foto">
+    <div class="outline"></div>
+  <img src="/Aset/avatar.jfif" alt="DaffaSWijayanto" class="profil">
+</div>
     <h1 class="display-4">Daffa Sakha Wijayanto</h1>
-    <p class="lead"><i>Frontend Developer </i>|<i> High School Student </i>|<i> UI Desainer</i></p>
+    <div class="typewriter">
+      <i><span></span></i>
+ </div> 
     <div class="container">
       <div class="row">
         <div class="col">
@@ -89,7 +96,7 @@
     </div>
   </div>
 </section>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5d2a784" fill-opacity="1" d="M0,96L34.3,85.3C68.6,75,137,53,206,69.3C274.3,85,343,139,411,160C480,181,549,171,617,181.3C685.7,192,754,224,823,218.7C891.4,213,960,171,1029,165.3C1097.1,160,1166,192,1234,170.7C1302.9,149,1371,75,1406,37.3L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#97979780" fill-opacity="1" d="M0,96L34.3,85.3C68.6,75,137,53,206,69.3C274.3,85,343,139,411,160C480,181,549,171,617,181.3C685.7,192,754,224,823,218.7C891.4,213,960,171,1029,165.3C1097.1,160,1166,192,1234,170.7C1302.9,149,1371,75,1406,37.3L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
 <!-- akhir about -->
 <!-- project -->
 <section id="Project">
@@ -99,37 +106,47 @@
         <h2>My Project</h2>
       </div>
     </div>
+
+  
     <div class="row justify-content-center">
       <div class="col-md-4 mb-3">
         <div class="card">
           <img src="./Aset/project1.jpg" class="card-img-top" alt="project1">
-          <div class="card-body">
+          <div class="dark-overlay"></div>
             <p class="card-text">Di antara cahaya lampu dan suara ketikan keyboard, website yang sedang saya ciptakan mengambil bentuk. Setiap garis dan warna memiliki makna, seperti puzzle yang berpadu harmonis. Meskipun malam telah larut, semangat saya tak tergoyahkan.</p>
-          </div>
+            <div class="card-body card-pop">
+              <a href="https://youtube.com/" class="popup-link"><img class="openlogo" src="./Aset/icon open.png" alt=""></a>
+              </div>
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="card">
           <img src="./Aset/project2.jpg" class="card-img-top" alt="project2">
-          <div class="card-body">
+          <div class="dark-overlay"></div>
             <p class="card-text">Di tengah aroma kopi yang memikat, layar laptopku menjadi panggung untuk ide-ide kreatif yang mulai berkembang. Dalam kesunyian malam, cahaya laptop menyinari setiap langkah pembuatan aplikasi ini</p>
-          </div>
+            <div class="card-body card-pop">
+              <a href="https://youtube.com/" class="popup-link"><img class="openlogo" src="./Aset/icon open.png" alt=""></a>
+              </div>
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="card">
           <img src="./Aset/project3.jpg" class="card-img-top" alt="project3">
-          <div class="card-body">
+          <div class="dark-overlay"></div>
             <p class="card-text">Dalam proyek pengeditan foto ini, setiap detail diabadikan dengan hati, mengubah sebuah gambar menjadi karya yang bermakna. Saya menyusuri alur kerja dengan tekun, memadukan imajinasi dengan keterampilan teknis di setiap gerakan tangan</p>
-          </div>
+            <div class="card-body card-pop">
+              <a href="https://youtube.com/" class="popup-link"><img class="openlogo" src="./Aset/icon open.png" alt=""></a>
+              </div>
         </div>
       </div>
       <div class="col-md-4 mb-3">
         <div class="card">
           <img src="./Aset/project4.jpg" class="card-img-top" alt="project4">
-          <div class="card-body">
+          <div class="dark-overlay"></div> <!-- Elemen latar belakang gelap -->
             <p class="card-text">Dengan ketelitian dan analisis yang mendalam, saya menjelajahi dinamika pasar, mengidentifikasi peluang, dan menggambarkan arah perusahaan melalui pola-pola grafik yang mengungkapkan cerita finansialnya. Setiap titik data adalah peta petunjuk, dan setiap grafik adalah kanvas yang memberi wawasan mendalam</p>
-          </div>
+            <div class="card-body card-pop">
+              <a href="https://youtube.com/" class="popup-link"><img class="openlogo" src="./Aset/icon open.png" alt=""></a>
+              </div>
         </div>
       </div>
     </div>
@@ -165,14 +182,15 @@
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f5d2a784" fill-opacity="1" d="M0,160L40,154.7C80,149,160,139,240,149.3C320,160,400,192,480,192C560,192,640,160,720,154.7C800,149,880,171,960,170.7C1040,171,1120,149,1200,133.3C1280,117,1360,107,1400,101.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#97979780" fill-opacity="1" d="M0,160L40,154.7C80,149,160,139,240,149.3C320,160,400,192,480,192C560,192,640,160,720,154.7C800,149,880,171,960,170.7C1040,171,1120,149,1200,133.3C1280,117,1360,107,1400,101.3L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 </section>
 <!-- akhircontact -->
 <!-- footer -->
-<footer class="text-dark pb-1 text-center" style="background-color: #f5d2a784;">
+<footer class="text-dark pb-1 text-center" style="background-color: #97979780;">
   <p>Copyright©2023 By <a class="text-dark fw-bold" href="https://instagram.com/">Dropdot</a></p>
 </footer>
 <!-- akhirfooter -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
