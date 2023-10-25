@@ -1,9 +1,32 @@
+/* navbar */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
-
+/* Terapkan animasi pada kelas yang diinginkan */
+.iconnavbar {
+    animation: fadeInLeft 2s ease;
+}
+/* navbar end */
+/* carousel */
+.carousel{
+    background-image: url(./Aset/carousel1.jpg);
+}
+/* carousel end */
+/* jumbotron */
 .jumbotron{
-    padding-top: 5rem;
+    padding-top: 1rem;
     background-color: #97979780;
 }
+
+/* jumbotron end */
 #Project{
     background-color: #97979780;
 }
@@ -42,12 +65,12 @@ section{
 
 @keyframes flash {
     0%, 50%, 100% {
-        border-color: #00a2ff77; /* Warna outline pada titik awal, pertengahan, dan akhir */
-        box-shadow: 0 0 10px rgb(0, 81, 255); /* Efek bayangan pada titik awal, pertengahan, dan akhir */
+        border-color: #6a00ff00; /* Warna outline pada titik awal, pertengahan, dan akhir */
+        box-shadow: 0 0 10px rgb(208, 0, 255); /* Efek bayangan pada titik awal, pertengahan, dan akhir */
     }
     25%, 75% {
-        border-color: #ff6a6a; /* Warna outline pada titik tengah animasi */
-        box-shadow: 0 0 20px rgb(255, 0, 0); /* Efek bayangan pada titik tengah animasi */
+        border-color: #ff6a6a00; /* Warna outline pada titik tengah animasi */
+        box-shadow: 0 0 20px rgb(162, 0, 255); /* Efek bayangan pada titik tengah animasi */
     }
 }
 /* profil style end */
@@ -55,6 +78,7 @@ section{
 span {
     overflow: hidden;
     white-space: nowrap;
+
 }
 
 span:nth-child(1):before {
@@ -100,6 +124,24 @@ span:nth-child(3):before {
 }
 
 /* nama end */
+/* sosmed */
+        /* Tambahkan animasi fadeInDown */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Terapkan animasi pada kelas yang diinginkan */
+        .sosmed {
+            animation: fadeInDown 4s ease;
+        }
+/* sosmed end */
 /* project */
 .card {
     position: relative;

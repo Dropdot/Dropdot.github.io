@@ -1,4 +1,6 @@
 
+
+// project
     document.addEventListener("DOMContentLoaded", function () {
         const popupLinks = document.querySelectorAll('.popup-link');
 
@@ -9,5 +11,5 @@
             });
         });
     });
-
+// project end
 
