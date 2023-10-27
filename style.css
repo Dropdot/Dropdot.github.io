@@ -21,10 +21,6 @@
 }
 /* carousel end */
 /* jumbotron */
-.jumbotron{
-    padding-top: 1rem;
-    background-color: #97979780;
-}
 
 /* jumbotron end */
 #Project{
@@ -75,13 +71,24 @@ section{
 }
 /* profil style end */
 /* nama */
-span {
+.jumbotron{
+    padding-top: 1rem;
+    background-color: #97979780;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: ;
+    font-family: 'montserrat alternates', sans-serif;
+}
+
+.jumbotron span {
     overflow: hidden;
     white-space: nowrap;
 
 }
 
-span:nth-child(1):before {
+.jumbotron span:nth-child(1):before {
     content: '';
     animation: gerak 10s ease infinite;
     animation-delay: 0s; /* Delay untuk Frontend Developer */
@@ -91,7 +98,7 @@ span:nth-child(1):before {
     font-size: 25px;
 }
 
-span:nth-child(2):before {
+.jumbotron span:nth-child(2):before {
     content: '';
     animation: gerak 10s ease infinite;
     animation-delay: 5s; /* Delay untuk High School Student */
@@ -101,7 +108,7 @@ span:nth-child(2):before {
     font-size: 25px;
 }
 
-span:nth-child(3):before {
+.jumbotron span:nth-child(3):before {
     content: '';
     animation: gerak 10s ease infinite;
     animation-delay: 10s; /* Delay untuk UI Developer */
